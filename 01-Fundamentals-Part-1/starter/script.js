@@ -85,6 +85,7 @@ const isFullAge = ageSarah >= 18;
 console.log(now - 1991 > now - 2018);
 */
 
+/*
 // Operator Precedence
 const now = 2037
 const ageSagar = now - 1991;
@@ -96,3 +97,24 @@ console.log(x, y);
 
 const averageAge = (ageSagar + ageSarah) / 2;
 console.log(ageSagar, ageSarah, averageAge);
+*/
+
+/*
+// Strings and template Literals
+const firstName = 'Sagar';
+const job = 'Programmer';
+const birthYear = 2004;
+const year = 2037 - birthYear
+
+const sagar = "I'm " + firstName + ', a ' + year + ' years old ' + job;
+console.log(sagar);
+
+//string literals
+const sagarNew = `I'm ${firstName} a ${year} years old ${job}`;
+console.log(sagarNew);
+
+// multiple line string
+console.log(`String
+multiple
+lines`)
+*/
