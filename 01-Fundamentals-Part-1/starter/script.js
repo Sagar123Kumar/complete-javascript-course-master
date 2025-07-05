@@ -1,4 +1,5 @@
 /*
+// Values & Variable
 let js = "amazing";
 console.log(40 + 8 + 23 - 10);
 
@@ -22,6 +23,7 @@ console.log(myCurrentJob)
 */
 
 /*
+// Data Types
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
 
@@ -43,6 +45,9 @@ console.log(typeof year);
 console.log(typeof null);
 */
 
+
+/*
+//let const var
 let age = 30;
 age = 31;
 
@@ -51,6 +56,30 @@ const birthYear = 1991;
 
 var job = 'programmer';
 job = 'teacher';
+*/
 
+//Basic Operators
+const now = 2037
+const ageSagar = now - 1991;
+const ageSarah = now - 2018;
+console.log(ageSagar, ageSarah);
 
+console.log(ageSagar * 2, ageSagar / 10, 2**3);
+
+const firstName = 'Sagar';
+const lastName = 'Kumar';
+console.log(firstName + ' ' + lastName);
+
+//assignment operator
+let x = 10 + 5; // 15
+x += 10;
+x *= 4;
+console.log(x);
+
+// Comparison operator
+console.log(ageSagar > ageSarah);
+
+const isFullAge = ageSarah >= 18;
+
+console.log(now - 1991 > now - 2018);
 
