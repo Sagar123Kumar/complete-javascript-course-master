@@ -140,3 +140,23 @@ if (birthYear <= 2000) {
 }
 console.log(century);
 */
+
+// type conversion
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Sagar'));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+// type coercion
+console.log('I am ' + 23 + ' years old'); // + convert number to string 
+console.log('23' - '10' - 3); // - convert string to number (10)
+console.log('23' * '2'); // 46
+
+
+let n = '1' + 1; // string concatinate 11
+n = n - 1; // - convert 11 - 1 (10)
+console.log(n);
