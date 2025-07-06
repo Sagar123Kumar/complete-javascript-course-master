@@ -141,6 +141,7 @@ if (birthYear <= 2000) {
 console.log(century);
 */
 
+/*
 // type conversion
 const inputYear = '1991';
 console.log(Number(inputYear), inputYear);
@@ -160,3 +161,4 @@ console.log('23' * '2'); // 46
 let n = '1' + 1; // string concatinate 11
 n = n - 1; // - convert 11 - 1 (10)
 console.log(n);
+*/
