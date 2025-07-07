@@ -203,3 +203,41 @@ const sagar = {
   friends: ['Sonu', 'Rahul', 'Shivam']
 };
 */
+
+/*
+// Dot vs Bracket Notation in object
+const sagar = {
+  firstName: 'Sagar',
+  lastName: 'Kumar',
+  age: 2037 - 1991,
+  job: 'teacher',
+  friends: ['Sonu', 'Rahul', 'Shivam']
+};
+console.log(sagar);
+
+//fetch properties using (.)
+console.log(sagar.lastName);
+//fetch properties using []
+console.log(sagar['lastName']); // it is useful to when we use properties name form the use so we take and put in [] its evaluete expression and return the value.
+
+const nameKey = 'Name';
+console.log(sagar['first' + nameKey]);
+console.log(sagar['last' + nameKey]);
+
+const interestedIn = prompt('What do you want to know about Sagar? Choose between firstName, lastName, age, job, friends');
+
+if(sagar[interestedIn]) {
+  console.log(sagar[interestedIn]);
+} else {
+  console.log('Wrong request! Choose between firstName, lastName, age, job, friends');
+}
+
+sagar.location = 'India';
+sagar['github'] = 'github.com/Sagar123Kumar';
+console.log(sagar);
+
+// challenge
+// "Sagar has 3 friends, and his best friend is called sonu"
+
+console.log(`${sagar.firstName} has ${sagar.friends.length} friends and his best friend is called ${sagar.friends[0]}`);
+*/
