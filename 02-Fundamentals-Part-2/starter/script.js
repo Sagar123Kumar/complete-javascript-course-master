@@ -181,4 +181,25 @@ console.log(friends.includes(23));
 if (friends.includes('Peter')) {
   console.log('You have a friend called Peter');
 }
+*/ 
+
+/*
+//Introduction to Objects
+// Array
+const jonasArray = [
+  'Sagar',
+  'Kumar',
+  2037 - 1991,
+  'teacher',
+  ['Sonu', 'Rahul', 'Shivam']
+];
+
+// Object litteral sentax
+const sagar = {
+  firstName: 'Sagar',
+  lastName: 'Kumar',
+  age: 2037 - 1991,
+  job: 'teacher',
+  friends: ['Sonu', 'Rahul', 'Shivam']
+};
 */
