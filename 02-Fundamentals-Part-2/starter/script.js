@@ -280,6 +280,3 @@ console.log(sagar);
 
 console.log(sagar.getSummary());
 */
-
-// Iteration The for Loop
-
