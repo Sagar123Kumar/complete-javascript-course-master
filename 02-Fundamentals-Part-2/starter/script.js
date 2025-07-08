@@ -241,3 +241,42 @@ console.log(sagar);
 
 console.log(`${sagar.firstName} has ${sagar.friends.length} friends and his best friend is called ${sagar.friends[0]}`);
 */
+
+/*
+//Object Methods
+const sagar = {
+  firstName: 'Sagar',
+  lastName: 'Kumar',
+  birthYear: 1991,
+  job: 'teacher',
+  friends: ['Sonu', 'Rahul', 'Shivam'],
+  hadDriverLicenses: true,
+
+  // calcAge: function(birthYear) {
+  //   return 2037 - birthYear;
+  // }
+
+  // calcAge: function() {
+  //   return 2037 - this.birthYear;
+  // }
+
+  calcAge: function() {
+    this.age = 2037 - this.birthYear;
+    return this.age;
+  },
+
+  getSummary: function() {
+    return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he as ${this.hadDriverLicenses === true ? 'a' : 'no'} driver's license`
+  }
+};
+
+console.log(sagar.calcAge());
+// console.log(sagar['calcAge']());
+console.log(sagar.age);
+console.log(sagar);
+
+// Challenge 
+// "Sagar is a 46-year old teacher, and he has a/no driver's license"
+
+console.log(sagar.getSummary());
+*/
