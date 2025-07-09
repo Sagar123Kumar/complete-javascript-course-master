@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
 let hasDriversLicense = false;
@@ -49,7 +49,6 @@ const age2 = calcAge2(1991);
 console.log(age1, age2);
 */
 
-
 /*
 // Arrow Function
 //Function expression
@@ -72,7 +71,6 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 console.log(yearsUntilRetirement(1991, 'Sagar'));
 console.log(yearsUntilRetirement(1980, 'Sonu'));
 */
-
 
 /*
 // Functions Calling Other Functions
@@ -153,7 +151,6 @@ const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length -
 console.log(ages);
 */
 
-
 /*
 // Basic Array Operations (Methods)
 // Add elements
@@ -181,7 +178,7 @@ console.log(friends.includes(23));
 if (friends.includes('Peter')) {
   console.log('You have a friend called Peter');
 }
-*/ 
+*/
 
 /*
 //Introduction to Objects
@@ -353,5 +350,21 @@ for (let exercise = 1; exercise < 4; exercise++) {
   for (let rep = 1; rep < 6; rep++) {
     console.log(`Exercise ${exercise}: Lifting weight repetition ${exercise}`);
   }
+}
+*/
+
+/*
+// The while Loop
+let rep = 1;
+while (rep <= 10) {
+  //   console.log(`Lifting weight repetition ${rep}`);
+  rep++;
+}
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+
+while(dice !== 6) {
+  console.log(`You rolled a ${dice}`);
+  dice = Math.trunc(Math.random() * 6) + 1;
 }
 */
