@@ -330,3 +330,28 @@ for(let i = 0; i<jonasArray.length; i++) {
   console.log(jonasArray[i], typeof jonasArray[i]);
 }
 */
+
+/*
+// Looping Backwards and Loops in Loops
+// Looping Backwards
+const jonasArray = [
+  'Sagar',
+  'Kumar',
+  2037 - 1991,
+  'teacher',
+  ['Sonu', 'Rahul', 'Shivam']
+];
+
+for (let i = jonasArray.length - 1; i >= 0; i--) {
+  console.log(i, jonasArray[i]);
+}
+
+// Loops in Loop
+for (let exercise = 1; exercise < 4; exercise++) {
+  console.log(`-------- Starting exercise ${exercise}`);
+
+  for (let rep = 1; rep < 6; rep++) {
+    console.log(`Exercise ${exercise}: Lifting weight repetition ${exercise}`);
+  }
+}
+*/
