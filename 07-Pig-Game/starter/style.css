@@ -99,6 +99,24 @@ main {
   font-size: 3.5rem;
 }
 
+.winner {
+  background-color: #4ec736;
+  opacity: 0.8;
+  border-radius: 9px;
+  color: #fff;
+  width: 65%;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.75s;
+  margin: auto;
+}
+
+.winner-label  {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  color: #ddd;
+}
+
 /* ABSOLUTE POSITIONED ELEMENTS */
 .btn {
   position: absolute;
