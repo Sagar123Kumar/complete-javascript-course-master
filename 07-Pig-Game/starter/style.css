@@ -150,11 +150,21 @@ main {
 
 .dice {
   position: absolute;
-  left: 50%;
+  left: 45%;
   top: 16.5rem;
-  transform: translateX(-50%);
+  right: 10%;
+  /* transform: translateX(-50%); */
   height: 10rem;
+  border-radius: 1rem;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+
+.rollAnm {
+  animation: spinAnimate 0.5s ease-in-out 0s normal;
+}
+
+.rollRep {
+  animation: none;
 }
 
 .player--winner {
@@ -168,4 +178,13 @@ main {
 
 .hidden {
   display: none;
+}
+
+@keyframes spinAnimate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotateZ(950deg);
+    }
 }
