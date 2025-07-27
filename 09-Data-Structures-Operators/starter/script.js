@@ -72,6 +72,35 @@ const restaurant = {
 };
 
 /*
+console.log('---- OR ----');
+// Use any data type, return any data type, short-cicuting
+
+console.log(undefined || 0 || '' || 'Hello' || 23 || null);
+
+// restaurant.numGuests = 23;
+const guests1 = restaurant.numGuests ? restaurant.numGuests : 10;
+console.log(guests1);
+
+// here restaurant.numGuests is undefined so 10 will the answer
+const guests2 = restaurant.numGuests || 10;
+console.log(guests2);
+
+console.log('---- AND ----'); 
+
+console.log(0 && 'Sagar');
+console.log(7 && 'Sagar');
+console.log('Hello' && 23 && null && 'Sagar');
+
+// Practical example
+if (restaurant.orderPizza) {
+  restaurant.orderPizza('mushroom', 'spinach');
+}
+
+// using && operator check and call the method
+restaurant.orderPizza && restaurant.orderPizza('mushroom', 'spinach');
+*/
+
+/*
 // 1) Destructruing
 // Array Resting
 // Spread, because on righ side of =
