@@ -78,6 +78,33 @@ const restaurant = {
 };
 
 /*
+// Optional Chaining (.)
+if (restaurant.openingHours && restaurant.openingHours.mon) 
+  console.log(restaurant.openingHours.mon.open);
+
+  // with optional chaining
+  console.log(restaurant.openingHours.mon?.open);
+  console.log(restaurant.openingHours?.mon?.open);
+
+  // Example
+  const days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+  // optional chaining
+  for (const day of days) {
+    const open = restaurant.openingHours[day]?.open ?? 'closed';
+    console.log(`On ${day}, we open at ${open}`);
+  }
+
+  // optional chaining on Methods
+  console.log(restaurant.order?.(0, 1) ?? 'Method does not exit');
+
+  // optional chaining on arrays
+  const users = [
+    {name: 'Sagar', email: 'jhasagar700@gmail.com'}
+  ];
+  console.log(users[0]?.name ?? 'User array empty');
+*/
+
+/*
 // Looping arrays the for-of loop
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 
