@@ -76,6 +76,30 @@ const restaurant = {
     console.log(mainIngredient, otherIngredients);
   },
 };
+/*
+// Looping Objects (object keys, values, & entries)
+// Property names
+const properties = Object.keys(openingHours);
+
+let openStr = `We are open on ${properties.length} days: `;
+for (const day of properties) {
+  openStr += `${day}, `;
+}
+console.log(openStr);
+
+// Property values
+const values = Object.values(openingHours);
+console.log(values);
+
+// Entire object
+const entries = Object.entries(openingHours);
+console.log(entries);
+
+// object nest destructing { open, close }
+for (const [day, { open, close }] of entries) {
+  console.log(`On ${day} we open at ${open} and close at ${close}`);
+}
+*/
 
 /*
 // Optional Chaining (.)
