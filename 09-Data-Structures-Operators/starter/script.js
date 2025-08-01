@@ -78,6 +78,44 @@ const restaurant = {
 };
 
 /*
+// Maps
+const rest = new Map();
+rest.set('name', 'Classico Italiano');
+rest.set(1, 'Firenze, Italy');
+console.log(rest.set(2, 'Lisbon, Portugal'));
+
+rest
+  // set chaining
+  .set('categories', ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'])
+  .set('open', 11)
+  .set('close', 23)
+  .set(true, 'We are open :)')
+  .set(false, 'We are closed :(');
+
+// get value of the key
+console.log(rest.get('name'));
+console.log(rest.get(true));
+console.log(rest.get(1));
+
+const time = 21;
+console.log(rest.get(time > rest.get('open') && time < rest.get('close')));
+
+console.log(rest.has('categories'));
+// delete with the help of key
+rest.delete(2);
+// rest.clear();
+console.log(rest);
+console.log(rest.size);
+
+// set array as a key
+const arr = [1, 2];
+rest.set(arr, 'Test');
+// h1 is a key and heading is value;
+rest.set(document.querySelector('h1'), 'Heading');
+console.log(rest.get(arr));
+*/
+
+/*
 // Sets
 const ordersSet = new Set([
   'Pasta',
