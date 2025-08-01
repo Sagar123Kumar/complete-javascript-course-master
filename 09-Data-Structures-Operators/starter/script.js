@@ -76,6 +76,45 @@ const restaurant = {
     console.log(mainIngredient, otherIngredients);
   },
 };
+
+/*
+// Sets
+const ordersSet = new Set([
+  'Pasta',
+  'Pizza',
+  'Pizza',
+  'Risotto',
+  'Pasta',
+  'Pizza',
+]);
+console.log(ordersSet);
+console.log(new Set('Jonas'));
+
+console.log(ordersSet.size);
+console.log(ordersSet.has('Pizza'));
+ordersSet.add('Garlic Bread');
+ordersSet.add('Garlic Bread');
+ordersSet.delete('Risotto');
+// ordersSet.clear();
+console.log(ordersSet);
+
+for (const order of ordersSet) console.log(order);
+
+// Example 
+const staff = ['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter'];
+// first remove duplicates and then store as an arry with spread ... 
+const staffUnique = [...new Set(staff)];
+console.log(staffUnique);
+
+// if we want only the size of qunue array
+console.log(
+  new Set(['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter']).size
+);
+
+// finding uniqe element sizes in the string 
+console.log(new Set('jonasschmedtmann').size);
+*/
+
 /*
 // Looping Objects (object keys, values, & entries)
 // Property names
